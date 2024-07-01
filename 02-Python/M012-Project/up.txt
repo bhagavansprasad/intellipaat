@@ -1,0 +1,12 @@
+01-Project–COVID-19-Analysis
+02-Project–Analyzing-Naming-Trends
+03-Project–Customer-Churn
+04-Project–Flight-Booking-Price-Prediction
+05-Project–Classification-Credit-Score
+06-Project–Biosignal-Analysis-For-Smoking
+07-Project–Image-Classification-Using-Scikit-Learn
+08-Project–Credit-Card-Fraud-Detection
+09-Project–Revenue-Prediction
+10-Project–Heart-Disease
+11-Project–Census-Income-Project
+
