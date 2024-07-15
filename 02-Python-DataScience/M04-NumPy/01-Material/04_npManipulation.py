@@ -32,11 +32,9 @@ def main():
     # element_compare()
     # aggregate_function()
     # np_broadcasting()
-    splitting_examples()
-    
-    
-
+    # splitting_examples()
     pass
 
 if __name__ == "__main__":
     main()
+    
