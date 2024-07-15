@@ -199,23 +199,12 @@ def np_help():
             [15,  90,  2],
         ])
 
-def np_sum():
-    a = np.array(
-        [
-            [100, 200, 300],
-            [5,   0,   15],
-            [10,  20 , 30],
-            [15,  90,  2],
-        ])
-    
-    s = np.sum([10, 20])
-    print(f"s :")
     
 def main():
     # oned_array()
     # twod_array()
     # init_2d_array()
-    arange_01()
+    # arange_01()
     # arrange_numbers()
     # full_01()
     # random_fill()
@@ -224,6 +213,8 @@ def main():
     # get_dimention()
     # get_size()
     # np_help()
+    pass
+
 if __name__ == "__main__":
     main()
     
