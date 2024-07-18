@@ -1,23 +1,23 @@
 import numpy as np
 
-def question_01():
+def question_01(): # create 2d np array with sequence of values
     npar = np.array(np.arange(2, 11)).reshape(3,3)
     print (f"npar :\n{npar}")
 
-def question_02():
+def question_02(): # create 1d np array with range of values
     npari = np.arange(1, 9)
     print (f"npari :\n{npari}")
     
     nparf = np.array(npari, dtype=float)
     print (f"nparf :\n{nparf}")
 
-def question_03():
+def question_03(): # np array appending list
     npar = np.arange(10, 31, 10)
     npar = np.append(npar, [50, 60, 70, 80, 90])
     print (f"npar      :\n{npar}")
     
 
-def question_04():
+def question_04(): # np array addition 
     a = np.array([1, 2, 3])
     b = np.array([4, 5, 6])
     print (f"a & type :{a}, {type(a)}")
@@ -34,7 +34,7 @@ def question_04():
     c = np.add(a, b)
     print (f"c & type :{c}, {type(c)}")
     
-def question_05():
+def question_05(): # np array print rows and cell
     a = np.array(np.arange(10, 100, 10)).reshape(3,3)
     print (f"a :\n{a}")
     print (f"a[0]      :{a[0]}")
