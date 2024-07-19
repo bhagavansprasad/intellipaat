@@ -138,3 +138,119 @@ print(f"a :\n{a}", end="\n\n")
 a.sort(order='y')
 print(f"a :\n{a}", end="\n\n")
 
+a = np.random.randint(10, 90, size=10)
+print(a)
+
+print(a>30)
+print(a[a>30])
+
+# vstack stacking np array n x m and n x m = 2n x m
+# vstack n x m and n x m = 2n x m
+a = np.random.randint(10, 90, size=(5,5))
+b = np.random.randint(10, 90, size=(5,5))
+print(a)
+print(b)
+c = np.vstack((a, b))
+print(c)
+
+# vstack stacking np array m x n and p x n array m+p x n
+# vstack n x m and p x m = n+p x m
+a = np.random.randint(10, 90, size=(5,5))
+b = np.random.randint(10, 90, size=(4,5))
+print(a)
+print(b)
+c = np.vstack((a, b))
+print(c)
+print()
+
+print()
+
+# hstack stacking np array n x m and n x m  = n+n x m
+# hstack n x m and n x m = n x 2m
+a = np.random.randint(10, 90, size=(5,5))
+b = np.random.randint(10, 90, size=(5,5))
+print(a)
+print(b)
+c = np.hstack((a, b))
+print(c)
+
+# vstack stacking np array m x n and m x p array
+# hstack n x m and m x p = n x m+p
+a = np.random.randint(10, 90, size=(5,5))
+b = np.random.randint(10, 90, size=(5,4))
+print(a)
+print(b)
+c = np.hstack((a, b))
+print(c)
+
+# vstack n x m and n x m = 2n x m
+# vstack n x m and p x m = n+p x m
+# hstack n x m and n x m = n x 2m
+# hstack n x m and m x p = n x m+p
+
+print()
+a = np.random.randint(1, 9, size=5)
+b = np.random.randint(10, 90, size=(5,5))
+print(a)
+print(b)
+c = np.column_stack((a, b))
+print(c)
+
+print()
+a = np.random.randint(1, 9, size=5)
+b = np.random.randint(10, 90, size=(5,4))
+print(a)
+print(b)
+c = np.column_stack((a, b))
+print(c)
+
+print()
+a = np.random.randint(1, 9, size=5)
+b = np.random.randint(10, 90, size=(5,5))
+print(a)
+print(b)
+c = np.row_stack((a, b))
+print(c)
+
+print()
+a = np.random.randint(1, 9, size=5)
+b = np.random.randint(10, 90, size=(4,5))
+print(a)
+print(b)
+c = np.row_stack((a, b))
+print(c)
+
+# hstack vstack concatenation row_stack column_stack
+# np.hsplit np.vsplit
+
+print()
+a = np.random.randint(10, 90, size=(8,4))
+
+print(a)
+c, d = np.hsplit(a, 2)
+print(c)
+print(d)
+print()
+
+c, d, e, f = np.hsplit(a, 4)
+print(c)
+print(d)
+print(e)
+print(f)
+print()
+
+print()
+a = np.random.randint(10, 90, size=(8,4))
+
+print(a)
+c, d = np.vsplit(a, 2)
+print(c)
+print(d)
+print()
+
+c, d, e, f = np.hsplit(a, 4)
+print(c)
+print(d)
+print(e)
+print(f)
+print()
