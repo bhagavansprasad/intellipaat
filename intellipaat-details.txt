@@ -13,3 +13,8 @@ MSSQl trainer Google drive link
     https://drive.google.com/drive/folders/1L8VKDskffYBnixC4fIODATClEdwdSq7o
 
 
+Numpy - trainers links
+    https://colab.research.google.com/drive/1S47B3xMQct_GgPiAqN_BYUSMeF4uPo-J
+
+Pandas - Trainers links
+    https://colab.research.google.com/drive/1d-8AHemIQCDR-YwzoutM7a4mb9pBNfmw?usp=sharing

@@ -69,9 +69,9 @@ def bar_plot():
         
     
 def main():
-    # line_plot_01()
-    # line_plot_02()
-    # area_plot()
+    line_plot_01()
+    line_plot_02()
+    area_plot()
     bar_plot()
     pass
 
