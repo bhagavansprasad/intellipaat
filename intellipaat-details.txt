@@ -4,7 +4,7 @@ Meeting Details
 
 Course link
     https://lms.intellipaat.com/members/bhagavansprasad/course/
-    bhagavansprasad@gmail.com, 50
+    bhagavansprasad@gmail.com
 
 Intellipat Google drive link
     https://drive.google.com/drive/u/0/folders/1h8yGQaQcyw9HOv8p7Jq1D_YRgC9RKbSy
@@ -12,9 +12,26 @@ Intellipat Google drive link
 MSSQl trainer Google drive link
     https://drive.google.com/drive/folders/1L8VKDskffYBnixC4fIODATClEdwdSq7o
 
+Shikhar kumar github page
+    https://github.com/shikharkumar13/
 
 Numpy - trainers links
     https://colab.research.google.com/drive/1S47B3xMQct_GgPiAqN_BYUSMeF4uPo-J
 
 Pandas - Trainers links
     https://colab.research.google.com/drive/1d-8AHemIQCDR-YwzoutM7a4mb9pBNfmw?usp=sharing
+    https://colab.research.google.com/drive/1d-8AHemIQCDR-YwzoutM7a4mb9pBNfmw 23-July-2024
+
+Matplotlib
+    https://colab.research.google.com/drive/11G1V9UFVeeMCeRUyzZ-FbwFckhx_exil
+
+Machine learning projects
+    https://autodraw.com
+    https://quickdraw.withgoogle.com
+    https://opensource.google.com/projects/explore/machine-learning
+    https://experiments.withgoogle.com/collection/ai
+    https://toolbox.google.com/datasetsearch
+
+Shikhar Google drive link
+    https://drive.google.com/drive/u/3/folders/1vDP9M69-S2Su04x1AOvUTg4AkyKPJYIn
+

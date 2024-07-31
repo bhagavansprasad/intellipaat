@@ -4,6 +4,7 @@ import pandas as pd
 def question_01(): # df: row index range and column index range
     a = pd.read_csv('customer_churn-1.csv')
     
+    print(a.head())
     na = a.iloc[20:201]
     newCols = pd.DataFrame(na[na.columns[2:16]])
     print(f"newCols df :\n{newCols}")

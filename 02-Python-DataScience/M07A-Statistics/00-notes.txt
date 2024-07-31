@@ -1,0 +1,28 @@
+Types of Data
+Qualitative 
+    Describes quality
+    Based on category
+    Why and how
+    Subjective and Unique
+    
+    Categorical Data
+        category or Virus
+        Species of a flower
+
+Quantitative Data
+    Temparature
+    Nuber of students in a section
+    How many
+    Fixed information
+
+    Descrete Data & Continuous Data
+        Quantitative
+
+Ordinal Data (Both Qualitative & Quantitative)
+    Movier Ratings from 1-5
+    Shoe sizes 1-10
+    Team rankings
+
+US Honey Usecase
+Dev collab link
+    https://colab.research.google.com/drive/1B75Dl_Q1B_Z_RwQoCLBWgHNSkWMuvT51?usp=sharing
