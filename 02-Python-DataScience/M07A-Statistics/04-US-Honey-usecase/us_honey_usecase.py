@@ -124,17 +124,15 @@ def Multiple_graphs():
     
     fig, axes = plt.subplots(1, 3, figsize=(18, 5))
     fig.suptitle('US Honey Production Trend Over the years')
-    # palette = sns.color_palette()
 
     sns.lineplot(ax = axes[0],         x='year', y='production', data=hf, label='Production', errorbar=None, marker='o', color='blue')
-    # ax2 = axes[0].twinx()
     sns.lineplot(ax = axes[0].twinx(), x='year', y='average_price', data=hf, label='Price', errorbar=None, marker='*', color='red')
 
     sns.lineplot(ax = axes[1],         x='year', y='colonies_number', data=hf, label='colonies_number', errorbar=None, marker='o', color='blue')
     sns.lineplot(ax = axes[1].twinx(), x='year', y='yield_per_colony', data=hf, label='yield_per_colony', errorbar=None, marker='*', color='red')
 
-    sns.lineplot(ax = axes[2],         x='year', y='colonies_number', data=hf, label='colonies_number', errorbar=None, marker='o', color='red')
-    sns.lineplot(ax = axes[2].twinx(), x='year', y='production', data=hf, label='production', errorbar=None, marker='*', color='blue')
+    sns.lineplot(ax = axes[2],         x='year', y='production', data=hf, label='production', errorbar=None, marker='*', color='red')
+    sns.lineplot(ax = axes[2].twinx(), x='year', y='colonies_number', data=hf, label='colonies_number', errorbar=None, marker='o', color='blue')
     
 
     sns.despine()
