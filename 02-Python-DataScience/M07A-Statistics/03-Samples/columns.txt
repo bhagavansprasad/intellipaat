@@ -1,0 +1,54 @@
+ #   Column                                                      Non-Null Count  Dtype
+---  ------                                                      --------------  -----
+ 0   country                                                     229 non-null    object
+ 1   Region                                                      229 non-null    object
+ 2   Surface area (km2)                                          229 non-null    object
+ 3   Population in thousands (2017)                              229 non-null    int64
+ 4   Population density (per km2, 2017)                          229 non-null    float64
+ 5   Sex ratio (m per 100 f, 2017)                               229 non-null    float64
+ 6   GDP: Gross domestic product (million current US$)           229 non-null    int64
+ 7   GDP growth rate (annual %, const. 2005 prices)              229 non-null    object
+ 8   GDP per capita (current US$)                                229 non-null    float64
+ 9   Economy: Agriculture (% of GVA)                             229 non-null    object
+ 10  Economy: Industry (% of GVA)                                229 non-null    float64
+ 11  Economy: Services and other activity (% of GVA)             229 non-null    float64
+ 12  Employment: Agriculture (% of employed)                     229 non-null    object
+ 13  Employment: Industry (% of employed)                        229 non-null    object
+ 14  Employment: Services (% of employed)                        229 non-null    object
+ 15  Unemployment (% of labour force)                            229 non-null    object
+ 16  Labour force participation (female/male pop. %)             229 non-null    object
+ 17  Agricultural production index (2004-2006=100)               229 non-null    int64
+ 18  Food production index (2004-2006=100)                       229 non-null    int64
+ 19  International trade: Exports (million US$)                  229 non-null    object
+ 20  International trade: Imports (million US$)                  229 non-null    object
+ 21  International trade: Balance (million US$)                  229 non-null    object
+ 22  Balance of payments, current account (million US$)          229 non-null    object
+ 23  Population growth rate (average annual %)                   229 non-null    object
+ 24  Urban population (% of total population)                    229 non-null    float64
+ 25  Urban population growth rate (average annual %)             229 non-null    object
+ 26  Fertility rate, total (live births per woman)               229 non-null    object
+ 27  Life expectancy at birth (females/males, years)             229 non-null    object
+ 28  Population age distribution (0-14 / 60+ years, %)           229 non-null    object
+ 29  International migrant stock (000/% of total pop.)           229 non-null    object
+ 30  Refugees and others of concern to UNHCR (in thousands)      229 non-null    object
+ 31  Infant mortality rate (per 1000 live births                 229 non-null    object
+ 32  Health: Total expenditure (% of GDP)                        229 non-null    float64
+ 33  Health: Physicians (per 1000 pop.)                          229 non-null    object
+ 34  Education: Government expenditure (% of GDP)                229 non-null    object
+ 35  Education: Primary gross enrol. ratio (f/m per 100 pop.)    229 non-null    object
+ 36  Education: Secondary gross enrol. ratio (f/m per 100 pop.)  229 non-null    object
+ 37  Education: Tertiary gross enrol. ratio (f/m per 100 pop.)   229 non-null    object
+ 38  Seats held by women in national parliaments %               229 non-null    float64
+ 39  Mobile-cellular subscriptions (per 100 inhabitants)         229 non-null    object
+ 40  Mobile-cellular subscriptions (per 100 inhabitants).1       229 non-null    object
+ 41  Individuals using the Internet (per 100 inhabitants)        229 non-null    int64
+ 42  Threatened species (number)                                 229 non-null    object
+ 43  Forested area (% of land area)                              229 non-null    object
+ 44  CO2 emission estimates (million tons/tons per capita)       229 non-null    int64
+ 45  Energy production, primary (Petajoules)                     229 non-null    int64
+ 46  Energy supply per capita (Gigajoules)                       229 non-null    object
+ 47  Pop. using improved drinking water (urban/rural, %)         229 non-null    object
+ 48  Pop. using improved sanitation facilities (urban/rural, %)  229 non-null    object
+ 49  Net Official Development Assist. received (% of GNI)        229 non-null    int64
+dtypes: float64(8), int64(8), object(34)
+

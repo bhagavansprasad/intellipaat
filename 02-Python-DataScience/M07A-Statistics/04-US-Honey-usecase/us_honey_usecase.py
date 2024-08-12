@@ -141,6 +141,15 @@ def Multiple_graphs():
     fig.tight_layout()  # to make sure the labels don't overlap
     plt.show()
 
+def point_plot():
+    hf = pd.read_csv("us_honey_dataset.csv")
+    hf = hf.drop(columns=["Unnamed: 0"])
+    hf.duplicated()
+
+    print(hf.head())
+    
+    sns.pointplot(data=hf, x="year", y="colonies_number")
+    plt.show()
 
 def main():
     # us_honey_scatter_graph_01()
@@ -150,7 +159,8 @@ def main():
     # production_vs_price()
     # colonies_and_yields()
     # colonies_vs_production()
-    Multiple_graphs()
+    # Multiple_graphs()
+    point_plot()
     
 if (__name__ == '__main__'):
     main()
