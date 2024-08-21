@@ -1,6 +1,18 @@
 import pandas as pd
 import numpy as np
 
+# TODO: FAQs to answer
+# What columns are considered as training data
+# What columns are considered as test data?
+# How to print only Test data Actual-value and Predicted-value?
+# How to caliculated the error marning for each row of test data?
+# What is the total error margin for all test data?
+# What is R2score, how is it calculated?
+# Is Correlation and variance_inflation_factor is on and the same?
+# What is the difference between X_train and y_train?
+# Why shape is not giving number of columns y_train, y_test and y_pred?
+
+
 #machine learning related packages
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -47,11 +59,11 @@ def predict_values(data):
     y_pred = lin_reg.predict(X_test)
     r2score = r2_score(y_test, y_pred)
 
-    dump_data("X_train", X_train) 
-    dump_data("X_test ", X_test) 
-    dump_data("y_train", y_train) 
-    dump_data("y_test ", y_test) 
-    dump_data("y_pred ", y_pred) 
+    # dump_data("X_train", X_train) 
+    # dump_data("X_test ", X_test) 
+    # dump_data("y_train", y_train) 
+    # dump_data("y_test ", y_test) 
+    # dump_data("y_pred ", y_pred) 
 
     vif = calc_variance_inflation_factor(X_train)
 
@@ -94,8 +106,8 @@ def best_fit_line():
     colnames.remove('medv')
     colnames.append('R2Score')
 
-    sns.pairplot(data)
-    plt.show()
+    # sns.pairplot(data)
+    # plt.show()
 
     vifresults = []
 
@@ -124,7 +136,6 @@ def best_fit_line():
             break
         
         data.drop(columns=colname, inplace=True)
-        break
 
     display_fine_tuned_results(vifresults)
     
@@ -147,13 +158,3 @@ if (__name__ == '__main__'):
     main()
 
 
-# FAQs
-# What columns are considered as training data
-# What columns are considered as test data?
-# How to print only Test data Actual-value and Predicted-value?
-# How to caliculated the error marning for each row of test data?
-# What is the total error margin for all test data?
-# What is R2score, how is it calculated?
-# Is Correlation and variance_inflation_factor is on and the same?
-# What is the difference between X_train and y_train?
-# Why shape is not giving number of columns y_train, y_test and y_pred?
