@@ -35,3 +35,53 @@ Machine learning projects
 Shikhar Google drive link
     https://drive.google.com/drive/u/3/folders/1vDP9M69-S2Su04x1AOvUTg4AkyKPJYIn
 
+
+
+SQL - Microsoft SQL Certification Training
+Orientation - Online Session- EPGC -BC=242906_(Orientation )
+
+Online Session – Python weekday BC=2425060207 56%
+Python Preparatory 0%
+Online Session Python Weekday BC = 231110(S) - 19%
+    Dataset
+    Python For Data Science – Agenda
+    Module 1 - Getting Started With Python
+    Module 2 - Python Basic Constructs
+    Module 3 - Introduction To NumPy
+    Module 4 - NumPy Advance
+    Module 5 - Data Manipulation Using Pandas
+    Module 6 - Data Visualization Using Matplotlib
+    Module 7A - Statistics
+    Module 7B - Machine Learning Using Python
+    Module 8 - Supervised Learning Algorithm In Python
+    Module 9 - Unsupervised Learning
+    Module 10 - Reinforcement Learning
+    Module 11 - Dimensionality Reduction
+    Additional Component 1 - Concept Of OOPs In Python
+    Additional Component 2 - Building Machine Learning Classifier In Python
+    Project
+    Interview Discussion
+    Interview Questions
+
+Online Session-DS M-BC=230508_(AI)
+    Module 1 - Introduction To Artificial Intelligence
+    Module 2 - Introduction To Neural Networks
+    Module 3 - Deep Diving Into Neural Networks
+    Module 4 - Modelling With Keras
+    Module 5 - Convolutional Neural Networks
+    Module 6 - Recurrent Neural Networks
+    Module 7 - Autoencoders And Restricted Boltzmann Machine
+    Module 8 - Deep Learning With TFLearn
+    Previous Version
+    Project Work
+    Projects On Kaggle Dataset
+    Quiz
+    Get Your Intellipaat Certificate
+
+SQL - Online Sessions – MS SQL Weekday BC = 2407051405
+
+Executive Post Graduate Certification in Data Science & Artificial Intelligence
+    No list yet
+    
+
+Advance Certification in Microsoft Excel
