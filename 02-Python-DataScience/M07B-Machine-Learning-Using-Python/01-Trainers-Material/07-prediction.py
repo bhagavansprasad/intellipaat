@@ -3,6 +3,8 @@ import numpy as np
 
 # TODO: FAQs to answer
 # What columns are considered as training data
+#   Except medv, every other column is considered
+
 # What columns are considered as test data?
 # How to print only Test data Actual-value and Predicted-value?
 # How to caliculated the error marning for each row of test data?
@@ -98,7 +100,7 @@ def display_fine_tuned_results(vifresults):
     print(tabulate(rows, header))
     print()
     
-def best_fit_line():
+def multicollinearity():
     data = pd.read_csv('Boston.csv')
     data.drop_duplicates(inplace = True)
     
@@ -138,23 +140,8 @@ def best_fit_line():
         data.drop(columns=colname, inplace=True)
 
     display_fine_tuned_results(vifresults)
-    
-def main():
-    best_fit_line()
 
-# Can we categorize these steps as normalization?
 
-# Normalizing data before applying ML algos
-    #1. Datatypes - 
-        # ML algos does not work properly with strings
-        # Int datatype is always better
-    #2. Replace null with appropriate values
-    #3. Remove duplicates
-# Identify input and output colums
-#   X = all input columns
-#   y = ouput columns
-
-if (__name__ == '__main__'):
-    main()
-
+def apply_multicollinearity(df, ):
+    multicollinearity(df)
 

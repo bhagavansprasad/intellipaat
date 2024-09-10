@@ -1,0 +1,77 @@
+' * Business Process Modelling WBS
+' ** Launch the project
+' *** Complete Stakeholder Research
+' *** Initial Implementation Plan
+' ** Design phase
+' *** Model of AsIs Processes Completed
+' **** Model of AsIs Processes Completed1
+' ****> Model of AsIs Processes Completed2
+' ***< Measure AsIs performance metrics
+' ***< Identify Quick Wins
+
+@startwbs
+*_ Machine Learning Algorithms
+**_ Supervised Learning
+***[#pink]< Fraud detection
+***[#pink] Email Spam
+***[#pink]< Diagnostics
+***[#pink] Image classification
+
+***_< Regression
+****[#pink]< Risk assessment
+****[#pink] Score Prediction
+****_ Linear Regression
+****_ Logistic Regression
+****_< Ridge Regression
+****_ Lasso Regression
+****_ ElasticNet
+
+***_< Classification
+****_< Decision Tree Classifier
+****_< Support Vector Machine
+****_> kNN
+****_ NaiveBayes
+
+***_< Ensemble Methods
+****_< Random Forest Classifier
+****_ Gradient Boosting
+****_< AdaBoost
+****_ XGBoost
+
+***_< Neural Networks
+****_ Neural Network Classifier
+
+***_< Discriminant Analysis
+****_ Linear Discriminant Analysis
+****_ Quadratic Discriminant Analysis
+
+**_ Unsupervised Learning
+***[#pink]< Text Mining
+***[#pink]< Face Recognition
+***[#pink]< Big Data Visualization
+***[#pink]< Image Recognition
+
+***_ Clustering
+****[#pink]< Biology
+****[#pink]< City Planning
+****[#pink]< Targeted Marketing
+****_ KMeans
+****_ DBSCAN
+****_ Hierarchical Clustering
+
+***_< Dimensionality Reduction
+****_< PCA
+****_ tSNE
+****_ LDA
+
+**_ Reinforcement Learning
+***[#pink]< Gaming 
+***[#pink]< Finance Sector
+***[#pink]< Manufacturing
+***[#pink]< Inventory Management
+***[#pink]< Robot Navigation
+
+***_ QLearning
+***_ SARSA
+***_ DeepQ Network
+@endwbs

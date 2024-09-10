@@ -1,0 +1,92 @@
+@startuml
+skinparam defaultFontName Courier
+
+:Root:
+:Root: --> :Child1:
+:Root: --> :Child2:
+:Root: --> :Child3:
+
+:Child1: --> :Grandchild1_1:
+:Child1: --> :Grandchild1_2:
+
+:Child2: --> :Grandchild2_1:
+:Child2: --> :Grandchild2_2:
+:Child2: --> :Grandchild2_3:
+
+:Child3: --> :Grandchild3_1:
+
+@enduml
+
+
+Deployment Diagram
+A Deployment Diagram is a type of diagram that visualizes the architecture of systems, showcasing how software components are deployed onto hardware. It provides a clear picture of the distribution of components across various nodes, such as servers, workstations, and devices.
+With PlantUML, creating deployment diagrams becomes a breeze. The platform offers a simple and intuitive way to design these diagrams using plain text, ensuring rapid iterations and easy version control. Moreover, the PlantUML forum provides a vibrant community where users can seek help, share ideas, and collaborate on diagramming challenges. One of the key advantages of PlantUML is its ability to integrate seamlessly with various tools and platforms, making it a preferred choice for professionals and enthusiasts alike.
+Back to topDeclaring element
+Copy to clipboard
+Edit online	
+@startuml
+action action
+actor actor
+actor/ "actor/"
+agent agent
+artifact artifact
+boundary boundary
+card card
+circle circle
+cloud cloud
+collections collections
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+hexagon hexagon
+interface interface
+label label
+node node
+package package
+person person
+process process
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+usecase/ "usecase/"
+@enduml
+
+@startuml
+
+node node1
+node node2
+node node3
+node node4
+agent node5
+node1 -- node2 : label1
+node1 .. node3 : label2
+node1 ~~ node4 : label3
+node1 == node5
+
+@enduml
+
+@startuml
+agent outlook
+agent "?"
+@enduml
+
+@startuml
+agent "User" as U
+agent "System" as S
+
+U -> S: Request OTP
+S --> U: Send OTP
+
+note right of U : OTP is valid for 5 minutes.
+note left of U : OTP is valid for 5 minutes.
+
+U -> S: Validate OTP
+S -> U: OTP Validated
+
+@enduml
