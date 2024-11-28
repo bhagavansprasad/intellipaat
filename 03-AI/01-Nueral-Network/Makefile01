@@ -1,0 +1,82 @@
+x1 := 7; x2 := 2; x3 := 25
+w1 := 0.1; w2 := 0.16; w3 := 0.1; w4 := 0.5
+w5 := 0.1; w6 := 0.6; w7 := 7; w8 := 3
+b1 := -4; b2 := -4; b3 := 12
+y_act := 85
+
+# Error calculation
+Error: y_act y_pred
+	@echo "Calculating Error: (y_act - y_pred) ** 2"
+	Error := $$(echo "(85 - 17.473)^2" | bc)
+
+# Actual Output
+y_act:
+	@echo "y_act (Actual Output) = $(y_act)"
+
+# Predicted Output
+y_pred: w7 w8 b3 g1 g2
+	y_pred := $$(echo "(7*0.354) + (3*1) + 12" | bc)
+	@echo "y_pred (Predicted Output) = $(y_pred)"
+
+# Weights and Biases
+w7:
+	@echo "w7 (Weight) = $(w7)"
+
+w8:
+	@echo "w8 (Weight) = $(w8)"
+
+b3:
+	@echo "b3 (Bias) = $(b3)"
+
+# Activation Functions
+g1: Z1
+	g1 := $$(echo "1 / (1 + e(-Z1))" | bc -l)
+	@echo "g1 = $(g1)"
+
+g2: Z2
+	g2 := $$(echo "1 / (1 + e(-Z2))" | bc -l)
+	@echo "g2 = $(g2)"
+
+# Z1 calculation
+Z1: w1 x1 w3 x2 w5 x3 b1
+	Z1 := $$(echo "(0.1*7) + (0.1*2) + (0.1*25) + (-4)")
+	@echo "Z1 = $(Z1)"
+
+w1:
+	@echo "w1 (Weight) = $(w1)"
+
+w3:
+	@echo "w3 (Weight) = $(w3)"
+
+w5:
+	@echo "w5 (Weight) = $(w5)"
+
+x1:
+	@echo "x1 (Hours of sleep) = $(x1)"
+
+x2:
+	@echo "x2 (Count of coffee) = $(x2)"
+
+x3:
+	@echo "x3 (Minutes of travel) = $(x3)"
+
+b1:
+	@echo "b1 (Bias) = $(b1)"
+
+# Z2 calculation
+Z2: w2 x1 w4 x2 w6 x3 b2
+	Z2 := $$(echo "(0.16*7) + (0.5*2) + (0.6*25) + (-4)" | bc)
+	@echo "Z2 = $(Z2)"
+
+w2:
+	@echo "w2 (Weight) = $(w2)"
+
+w4:
+	@echo "w4 (Weight) = $(w4)"
+
+w6:
+	@echo "w6 (Weight) = $(w6)"
+
+b2:
+	@echo "b2 (Bias) = $(b2)"
+
