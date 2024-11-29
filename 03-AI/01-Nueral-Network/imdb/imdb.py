@@ -95,6 +95,13 @@ test_data = [
     {"vector_dimensional": 32, "layers_count"  :32, "epochs" :50, "batch_size" :64},
     {"vector_dimensional": 64, "layers_count"  :64, "epochs" :100, "batch_size" :64},
     {"vector_dimensional": 128, "layers_count" :128, "epochs" :200, "batch_size" :64},
+
+    {"vector_dimensional": 256, "layers_count" :256, "epochs" :300, "batch_size" :64},
+    {"vector_dimensional": 256, "layers_count" :256, "epochs" :400, "batch_size" :64},
+    {"vector_dimensional": 256, "layers_count" :256, "epochs" :500, "batch_size" :64},
+    {"vector_dimensional": 658, "layers_count" :512, "epochs" :200, "batch_size" :64},
+    {"vector_dimensional": 768, "layers_count" :512, "epochs" :400, "batch_size" :64},
+
 ]
 
 def main():
